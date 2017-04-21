@@ -1,0 +1,16 @@
+.facebook, .twitter{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: 0 0;
+	width: 512px;
+	height: 512px;
+}
+
+.twitter{
+	background-position: -539px 0;
+	width: 512px;
+	height: 512px;
+}
+

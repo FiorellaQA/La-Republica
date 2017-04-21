@@ -1,0 +1,22 @@
+.odebrecht, .alejandra-aramayo, .corea-del-norte-{
+	background: url(sprites.png) no-repeat;
+}
+
+.odebrecht{
+	background-position: -391px -18px ;
+	width: 425px;
+	height: 250px;
+}
+
+.alejandra-aramayo{
+	background-position: -69px -286px ;
+	width: 312px;
+	height: 165px;
+}
+
+.corea-del-norte-{
+	background-position: -503px -285px ;
+	width: 312px;
+	height: 165px;
+}
+

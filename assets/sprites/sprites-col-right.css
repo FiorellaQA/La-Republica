@@ -1,0 +1,28 @@
+.senora, .alcalde-de-chilca, .futbol, .anunciofood{
+	background: url(sprites.png) no-repeat;
+}
+
+.senora{
+	background-position: -870px 0;
+	width: 53px;
+	height: 84px;
+}
+
+.alcalde-de-chilca{
+	background-position: -701px -98px ;
+	width: 243px;
+	height: 270px;
+}
+
+.futbol{
+	background-position: 0 -374px ;
+	width: 950px;
+	height: 475px;
+}
+
+.anunciofood{
+	background-position: -330px -861px ;
+	width: 310px;
+	height: 86px;
+}
+
