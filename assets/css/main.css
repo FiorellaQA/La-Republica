@@ -5,44 +5,43 @@ body, html{
 }
 .principal{
 	position: relative;
-    background: #E00109;
-    text-align: center;
-    padding: 2rem 0;
-    width: 100%;
+  background: #E00109;
+  text-align: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+a{
+   text-decoration:none;   
 }
 a.logo{
 	position: absolute;
-    left: 10%;
-    top: 24%;
+  left: 10%;
+  top: 24%;
 }
 span.icon{
-    margin: 5px;
-    font-size: 15px;
-    color: #E00109;
-    background-color: white;
-    border-radius: 50%;
-    padding: 9px;
+  margin: 5px;
+  font-size: 15px;
+  color: #E00109;
+  background-color: white;
+  border-radius: 50%;
+  padding: 9px;
 }
-input.input-search{
-	background: url(../img/lupa.png) red;
-    background-repeat: no-repeat;
-    background-size: 10px 10px;
-    background-position: 55px 0.1px;
-	border-radius: 50px;
+span.icon:hover{
+  opacity: 0.5;
+}
+button{
+    padding-left: 10px;
+    top: 25px;
+    position: absolute;
+    right: 200px;
+    font-size: 15px;
+    width: 85px;
+    color: white;
+    background-color: red;
     border: 2px solid white;
-       padding-left: 10px;
-    width: 75px;
+    border-radius: 50px;
     height: 30px;
 }
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white;
-}
-::-moz-placeholder { /* Firefox 19+ */
-  color: white;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: white;
-}
-:-moz-placeholder { /* Firefox 18- */
-  color: white;
+button span.icon-search{
+  margin-left: 5px;
 }
