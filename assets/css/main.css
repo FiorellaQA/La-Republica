@@ -1,23 +1,31 @@
 body, html{
+  background-color: #EBEBEB;
 	margin:0;
 	padding: 0;
 	box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
-.principal{
-	position: relative;
+.center-box{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+header{
   background: #E00109;
   text-align: center;
-  padding: 2rem 0;
-  width: 100%;
+  padding: 23px 0;
+}
+div.principal{
+	position: relative;
 }
 a{
   text-decoration:none;   
   cursor:pointer;
 }
 a.logo{
-	position: absolute;
-  left: 10%;
-  top: 24%;
+    position: absolute;
+    left: 0;
+    top: -12px;
 }
 span.icon{
   margin: 5px;
@@ -32,9 +40,9 @@ span.icon:hover{
 }
 button{
   padding-left: 10px;
-  top: 25px;
+  top: -8px;
   position: absolute;
-  right: 200px;
+  right: 0;
   font-size: 15px;
   width: 85px;
   color: white;
@@ -48,17 +56,11 @@ button span.icon-search{
 }
 /*--------------MENU----------------------*/
 nav.main{
-  position: absolute;
   background: #5C5C66;
   height: auto;
-  width: 100%;
 }   
 div.main-container{
   background: #4D4D59;
-  padding: 0 30px 0;
-  width: 100%;
-  max-width: 1000px;
-  margin: 0 auto;
 }
 div.main-container a{
   top: -4px;
@@ -77,14 +79,214 @@ i.arrow{
   font-size: 20px;
   font-weight: bold;
 }
+/*------------BODY----------------*/
+section{
+  position: relative;
+}
+div.body-content{
+  display: flex;
+  width: 970px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0 10px 30px 0px #bbb;
+  -webkit-box-shadow: 0 10px 30px 0px #bbb;
+}
 
+.first-column{
+  width: 640px;
+  margin-right: 5px;
+}
+.big-box{
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+}
+.big-box__title{
+  width: 34%;
+  background-color: #333340;
+  font-weight: bold;
+  color: #fff;
+  font-size: 26px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.icons{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 13px;
+}
+.icons span{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+.icons--left{
+  justify-content: flex-end;
+}
+.icons-right{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 9px;
+}
+.icons-right-special{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 28px;
+}
+.icons-right-special span{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
 
+.icons-right span{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ccc;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
 
+/*---------------------------------ESTILOS SEGUNDA COLUMNA----------------*/
+.second-column{
+  width: 320px;
+  margin-left: 5px;
+}
+.list-news{
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+div.right-editorial h2{
+    top: 0;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #e00109;
+}
+p.text-editorial{
+  width: 90%;
+  padding: 20.9px 14px;
+  background: #ff0004;
+  color: #fff;
+}
+.news{
+  width: 310px;
+  margin: 0 10px;
+}
+.news__title{
+  background-color: #333340;
+  color: #fff;
+  font-size: 22px;
+  padding: 10px;
+}
+.chilca{
+  margin-top: -6px;
+}
+span.alert{
+  opacity: 0.7;
+  width: 75px;
+  right: 25px;
+  font-size: 13px;
+  position: absolute;
+  background-color: red;
+  color: white;
+  padding: 2px 6px;
+}
 
+.news-blue{
+  width: 320px;
+  display: flex;
+  height: 163px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  margin-right: -10px;
+}
+.news-blue__title{
+  width: 50%;
+  padding: 10px;
+  background: #1363a9;
+  color: #fff;
+}
+.news-blue__image{
+  background-color: #000;
+  width: 50%;
+  padding: 10px;
+  border-left: 1px solid #fff;
+}
+.anuncio-content{
+    background-color: black;
+    position: relative;
+    width: 320px;
+    height: 124px;
+}
 
+/*------- SPRITE COLUMNA IZQUIERDA ------------*/
+.odebrecht, .alejandra-aramayo, .corea-del-norte-{
+  background: url(../sprites/sprites-col-left.png) no-repeat;
+}
+.odebrecht{
+  background-position: -391px -18px ;
+  width: 425px;
+  height: 250px;
+  display: inline-block;
+}
 
+.alejandra-aramayo{
+  background-position: -69px -286px ;
+  width: 310px;
+  height: 165px;
+}
 
+.corea-del-norte-{
+  background-position: -503px -285px ;
+  width: 310px;
+  height: 165px;
+}
 
+/*------- SPRITE COLUMNA DERECHA ------------*/
+.senora{
+  background: url(../sprites/sprites-col-right.png) no-repeat;
+  top: 9px;
+  position: absolute;
+  background-position: -870px 0;
+  width: 53px;
+  height: 84px;
+  right: 15px;
+}
+
+.alcalde-de-chilca{
+  background: url(../sprites/sprites-col-right.png) no-repeat;
+  background-position: -439px -65px;
+  background-size: 600px 620px;
+}
+
+.futbol{
+  background: url(../sprites/sprites-col-right.png) no-repeat;
+  background-position: -55px -140px;
+  background-size: 350px 350px;
+}
+
+.anunciofood{
+  background: url(../sprites/sprites-col-right.png) no-repeat;
+  background-position: -340px -1236px;
+  background-size: 979px 1360px;
+  width: 320px;
+  height: 124px;
+}
 
 
 
