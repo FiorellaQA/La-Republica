@@ -10,6 +10,24 @@ body, html{
     max-width: 1000px;
     margin: auto;
 }
+div.alarm{
+    cursor: pointer;
+    padding: 21px 10px;
+    right: 40px;
+    bottom: 55px;
+    background-color: #E54B4D;
+    position: fixed;
+    border-radius: 50%;
+}
+div.alarm span{
+    background-color: #E54B4D;
+    border: 3px solid white;
+    font-size: 40px;
+    /* font-size: 50px; */
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
 header{
   background: #E00109;
   text-align: center;
